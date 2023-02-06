@@ -1,0 +1,99 @@
+.parent {
+    display: grid;
+    grid-template-columns: 30% 15% auto 15%;
+    grid-template-rows: 100px 200px 200px 100px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        margin: auto;
+      }
+    
+    .div1 {
+        background-color: rgb(181, 125, 181);
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+
+    .div2 { 
+        background-color: rgb(110, 209, 242);
+        grid-area: 1 / 2 / 2 / 5; 
+        text-align: center;
+        font-size:small;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .div3 { 
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color:indianred;
+        grid-area: 2 / 1 / 5 / 2;
+        font-size:smaller;
+    }
+
+    tr:nth-child(odd) {
+        background-color: lavender;
+    }
+    tr:nth-child(even) {
+        background-color: antiquewhite;
+    }
+
+    tr:hover {
+        background-color: lightgray;
+      }
+
+    .div4 { 
+        grid-area: 2 / 2 / 3 / 4; 
+        font-family: sans-serif; 
+        
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        font-size:large;
+    }
+
+    th{
+        text-align: center;
+    }
+    
+
+    th, td {
+        text-align: left;
+    }
+
+    .div5 { 
+        background-color: darkorange;
+        grid-area: 2 / 4 / 3 / 5; 
+        display: flex;
+        justify-content: center;
+    }
+    .div6 { 
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: mediumaquamarine;
+        grid-area: 3 / 2 / 4 / 3; 
+        font-size:small;
+    }
+    .div7 { 
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color:rgb(255, 240, 104);
+        grid-area: 3 / 3 / 4 / 5; 
+        text-align: center;
+    }
+    .pad{
+        padding-right:30px;
+        padding-left: 30px;
+    }
+    .div8 { 
+        background-color:hotpink;
+        grid-area: 4 / 2 / 5 / 5; 
+        text-align: center;
+        justify-content: space-between;
+        
+    }
