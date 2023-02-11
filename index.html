@@ -1,5 +1,6 @@
 <html lang="en">
     <head>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -54,59 +55,13 @@
                 
             </div>
             <div class="div4"> 
-                <table WIDTH="100%" HEIGHT="100%">
-                    <tr>
-                      <th>Course Number</th>
-                      <th>Course Name</th>
-                      <th>Semester Taken</th>
-                    </tr>
-                    <tr>
-                      <td>CIS 162</td>
-                      <td>Computer Science I</td>
-                      <td>Fall 2020</td>
-                    </tr>
-                    <tr>
-                      <td>CIS 163</td>
-                      <td>Computer Science II</td>
-                      <td>Winter 2021</td>
-                    </tr>
-                    <tr>
-                        <td>CIS 263</td>
-                        <td>Data Structures & Algorithms</td>
-                        <td>Winter 2021</td>
-                    </tr>
-                    <tr>
-                        <td>CIS 241</td>
-                        <td>System-level Programming & Utilities</td>
-                        <td>Fall 2021</td>
-                    </tr>
-                    <tr>
-                        <td>CIS 351</td>
-                        <td>Computer Organization & Assembly</td>
-                        <td>Winter 2021</td>
-                    </tr>
-                    <tr>
-                        <td>CIS 343</td>
-                        <td>Structure of Programming Languages</td>
-                        <td>Fall 2022</td>
-                    </tr>
-                    <tr>
-                        <td>CIS 353</td>
-                        <td>Database</td>
-                        <td>Fall 2022</td>
-                    </tr>
-                  </table>
+                <div id="area4-table"></div>
             </div>
             <div class="div5"> 
                 <img src ="computer.png" width = 100px height = 100px class="center" >
             </div>
             <div class="div6"> 
-                <h1>Companies</h1>
-                <ul>
-                    <li><a href="https://www.auto-owners.com/">AOI</a></li>
-                    <li><a href="https://www.gm.com/">GM</a></li>
-                    <li><a href="https://www.ally.com/">AB</a></li>
-                </ul>
+                <span id="area6-list"></span>
             </div>
             <div class="div7"> 
                 <p><b>My Favorite Line of Code</b><p>
@@ -122,13 +77,10 @@
                 </p>
             </div>
             <div class="div8"> 
-                <a href="https://twitter.com/?lang=en"><img src ="twitterpic.png"height = 100px class = "pad"></a>
-                <a href="https://www.instagram.com/"><img src ="instagrampic.png" height = 100px class = "pad"></a>
-                <a href="https://www.facebook.com/"><img src ="facebookpic.png" height = 100px class = "pad"></a>
-                <a href="https://www.youtube.com/"><img src ="youtubepic.png" height = 100px class = "pad"></a>
-                <a href="https://www.tiktok.com/"><img src ="tiktokpic.png" height = 100px class = "pad"></a>
-
+                <div id="area8-list"></div>
             </div>
         </div>
+
+        <script type="text/babel" src="mycode.ts"></script>
     </body>
 </html
